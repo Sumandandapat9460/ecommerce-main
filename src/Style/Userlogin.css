@@ -1,0 +1,90 @@
+/* Adminlogin.css */
+
+.Userlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Userlogin form {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.Userlogin form:hover {
+    transform: scale(1.03);
+}
+
+.Userlogin label {
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.Userlogin input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.Userlogin input[type="text"]:focus {
+    background-color: #e8e8e8;
+    box-shadow: 0 0 8px rgba(72, 116, 232, 0.3);
+    outline: none;
+}
+
+.Userlogin button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #4a90e2, #9013fe);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+}
+
+.Userlogin button:hover {
+    background: linear-gradient(90deg, #3a78c2, #8010de);
+    box-shadow: 0 5px 15px rgba(72, 116, 232, 0.4);
+}
+
+.Userlogin span {
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.95em;
+    text-align: center;
+}
+
+.Userlogin span a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Userlogin span a:hover {
+    color: #9013fe;
+}
+

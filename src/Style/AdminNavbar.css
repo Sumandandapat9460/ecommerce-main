@@ -1,0 +1,43 @@
+
+.AdminNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: honeydew;
+    padding: 15px 30px;
+    font-family: 'Arial', sans-serif;
+    position: sticky;
+    top: 0;
+  }
+  
+  .AdminNavbar .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: chocolate;
+    margin: 0;
+  }
+  
+  .AdminNavbar .logo span {
+    color: darkcyan;
+  }
+  
+  .AdminNavbar .links {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: hotpink;
+    display: flex;
+    gap: 50px;
+  }
+  
+  
+  .AdminNavbar .links a:hover {
+    color: #f39c12;
+  }
+
+  .AdminNavbar .links a {
+    text-decoration: none;
+    color: rgba(219, 114, 132, 0.815);
+    display: flex;
+    align-items: center;
+  }
+

@@ -1,0 +1,35 @@
+
+.Footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .contact span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f39c12;
+  }
+  
+  .contact p {
+    margin: 5px 0 0;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  .connect {
+    display: flex;
+    gap: 15px;
+  }
+
+
+  

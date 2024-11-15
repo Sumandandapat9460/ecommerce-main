@@ -1,0 +1,90 @@
+{
+  "Admin": [
+    {
+      "id": "1",
+      "email": "suman@gmail.com",
+      "password": "abc123",
+      "phone no": "1234567890",
+      "name": "ABC"
+    },
+    {
+      "id": "2",
+      "email": "suman@gmail.com",
+      "password": "efg123",
+      "phone no": "0123456789",
+      "name": "EFG"
+    },
+    {
+      "id": "5aa5",
+      "name": "suman dandapat",
+      "password": "suman@2002",
+      "phone": "9114338338",
+      "email": "suman@gmail.com"
+    }
+  ],
+  "User": [
+    {
+      "id": "c7e9",
+      "name": "ABCD",
+      "password": "abc01",
+      "phone": "1234567890",
+      "email": "suman@gmail.com"
+    }
+  ],
+  "Product": [
+    {
+      "category": "Mobile",
+      "name": "iQOO Z9x 5g",
+      "price": "₹12000",
+      "image": "https://m.media-amazon.com/images/I/61sY8BGOyEL._AC_UY327_FMwebp_QL65_.jpg",
+      "rating": "3",
+      "description": "Snapdragon 6 Gen 1 with 560k+ AnTuTu Score | 6000mAh Battery with 7.99mm Slim Design | 44W FlashCharge",
+      "id": "fe1a"
+    },
+    {
+      "category": "Mobile",
+      "name": "iPhone 14",
+      "price": "₹43000",
+      "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UY327_FMwebp_QL65_.jpg",
+      "rating": "5",
+      "description": "Apple iPhone 13 (128GB) - Starlight",
+      "id": "202b"
+    },
+    {
+      "category": "Mobile",
+      "name": "OnePlus 12",
+      "price": "₹67009",
+      "image": "https://m.media-amazon.com/images/I/61BAuSC0UnL._AC_UY327_FMwebp_QL65_.jpg",
+      "rating": "4.5",
+      "description": "(Flowy Emerald, 16GB RAM, 512GB Storage)",
+      "id": "e364"
+    },
+    {
+      "id": "3053",
+      "category": "Mobile",
+      "rating": "4.3",
+      "description": "(Ice Blue, 6GB RAM,128GB Storage)|120Hz Ultra Smooth Display|Dimensity 6100+ 6nm 5G|50MP AI Camera|45W Charger in The Box",
+      "name": "RealMe Narzo70x 50",
+      "price": "₹12500",
+      "image": "https://m.media-amazon.com/images/I/71w-mmKgIfL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "e1ec",
+      "category": "Mobile",
+      "rating": "3.9",
+      "description": "(Arctic White, 6GB RAM, 128GB Storage) | 5G Ready | 120Hz Bezel-Less AMOLED | 7.mm Slimmest Note Ever | 108MP Pro-Grade Camera",
+      "name": "Redmi Note 13 5g",
+      "price": "₹16000",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "0f95",
+      "category": "Mobile Assosories",
+      "rating": "4",
+      "description": "PULOKA - 2 in 1 Flip Cover for iPhone 15 - Protective Case with Card & Cash Pockets - Detachable Flip Case, Kickstand & Magnetic Closure - Profesional & Premium Leather",
+      "name": "Phone Cover",
+      "price": "₹900",
+      "image": "https://m.media-amazon.com/images/I/81NYSijerhL._AC_UY327_FMwebp_QL65_.jpg"
+    }
+  ]
+}

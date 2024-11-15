@@ -1,0 +1,81 @@
+/* AdminAddProducts.css */
+
+.addproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #e0f7fa; /* Light sky blue background color for the page */
+    margin-bottom: 150px;
+}
+
+.addproduct form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 500px; /* Maximum width of the form */
+    border: 2px solid #ffccf1; /* Pink border for the form */
+}
+
+.addproduct fieldset {
+    border: none; /* Remove the border from the fieldset */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.addproduct legend {
+    font-size: 1.5em; /* Size of the legend text */
+    margin-bottom: 15px; /* Space below the legend */
+    color: #333; /* Dark color for the legend */
+}
+
+.addproduct label {
+    font-size: 1em; /* Standard font size for labels */
+    margin: 10px 0 5px; /* Spacing around labels */
+    display: block; /* Display labels as block elements */
+    color: #555; /* Dark gray color for labels */
+}
+
+.addproduct input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%; /* Full width of the input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ddd; /* Light border around inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1em; /* Standard font size for inputs */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+.addproduct input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff80ab; /* Highlighted border color on focus (pink) */
+    outline: none; /* Remove default outline */
+}
+
+.addproduct textarea {
+    resize: none; /* Disable resizing for the textarea */
+}
+
+.addproduct .btn {
+    background-color: #ff80ab; /* Pink button background color */
+    color: #ffffff; /* White text color for buttons */
+    border: none; /* Remove border from button */
+    border-radius: 4px; /* Rounded corners for the button */
+    padding: 10px 15px; /* Padding inside the button */
+    font-size: 1em; /* Standard font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.addproduct .btn:hover {
+    background-color: #e91e63; /* Darker pink shade on hover */
+}
+
+

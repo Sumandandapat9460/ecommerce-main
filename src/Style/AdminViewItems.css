@@ -1,0 +1,110 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Main container styling */
+.AdminViewItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+/* Sub item card styling */
+.AdminViewItems .sub_Item {
+  background: linear-gradient(135deg, skyblue, pink); /* Two-color gradient */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.AdminViewItems .sub_Item:hover {
+  box-shadow: 0 4px 8px grey;
+}
+
+/* Product Image */
+.AdminViewItems .sub_Item img {
+  width: 170px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Product Title and Category */
+.AdminViewItems .sub_Item h1 {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.AdminViewItems .sub_Item h3 {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+/* Product Description */
+.AdminViewItems .sub_Item p {
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Price Styling */
+.AdminViewItems .sub_Item h1:nth-child(4) {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Button Styles */
+.AdminViewItems .sub_Item button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.AdminViewItems .sub_Item button:hover {
+  background-color: #0056b3;
+}
+
+/* Delete Button - Danger Styling */
+.AdminViewItems .sub_Item button:nth-of-type(2) {
+  background-color: #e74c3c;
+}
+
+.AdminViewItems .sub_Item button:nth-of-type(2):hover {
+  background-color: #c0392b;
+}
+
+/* Rating Star Design */
+.AdminViewItems .rating {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.AdminViewItems .rating span {
+  font-size: 24px;
+  color: #f1c40f;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.AdminViewItems .rating span:hover,
+.rating span:hover ~ span {
+  color: #f39c12;
+}

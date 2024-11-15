@@ -1,0 +1,77 @@
+/* AdminSignUp.css */
+
+.AdminSignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f39c12, #8e44ad);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.AdminSignUp form {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.AdminSignUp form:hover {
+    transform: scale(1.02);
+}
+
+.AdminSignUp label {
+    font-size: 1em;
+    color: #333;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+
+.AdminSignUp input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: #f3f3f3;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.AdminSignUp input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 8px rgba(255, 153, 51, 0.3);
+    outline: none;
+}
+
+.AdminSignUp button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #f39c12, #8e44ad);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+}
+
+.AdminSignUp button:hover {
+    background: linear-gradient(90deg, #d87b0e, #732d8b);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
